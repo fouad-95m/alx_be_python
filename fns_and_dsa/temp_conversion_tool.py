@@ -13,7 +13,7 @@ def convert_to_fahrenheit(celsius):
 def main():
     while True:
         try:
-            user_input = input("Enter a temperature to convert : ")
+            user_input = input("Enter a temperature to convert: ")
             if user_input.lower() == 'exit':
                 print("Goodbye!")
                 break
