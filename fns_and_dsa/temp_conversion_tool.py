@@ -27,7 +27,7 @@ def main():
             print("Current Shopping List:")
             if shopping_list:
                 for item in shopping_list:
-                    print(f"- {item}(['\"]")
+                    print(f"- {item}")
             else:
                 print("The shopping list is empty.")
         elif choice == '4':
