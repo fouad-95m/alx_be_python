@@ -1,8 +1,8 @@
 def safe_divide(numerator, denominator):
     try:
-        numerator = float(numerator)
-        denominator = float(denominator)
-         result = numerator/denominator
+        num = float(numerator)
+        deno = float(denominator)
+         result = num / deno
         return f"The result of the division is {result:.2f}"
 
     except ZeroDivisionError:
