@@ -1,10 +1,11 @@
 def safe_divide(numerator, denominator):
     try:
         num = float(numerator)
-        deno = float(denominator)
-         result = num / deno
-        return f"The result of the division is {result:.2f}"
-
+        denom = float(denominator)
+        
+        result = num / denom
+        return f"The result of the division is {result}"
+    
     except ZeroDivisionError:
         return "Error: Cannot divide by zero."
     except ValueError:
