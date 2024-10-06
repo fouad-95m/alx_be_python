@@ -2,7 +2,8 @@ import sys
 
 from robust_division_calculator import safe_divide
 def main():
-    if len(sys.argv) != 3:
+    if len(sys.argv) != 3: denominator = numerator / denominator
+
         print("Usage: python main.py <numerator> <denominator>")
         sys.exit(1)
     numerator = sys.argv[1]
